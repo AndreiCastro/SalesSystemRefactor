@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SalesSystem.Mvc/1.0.0": {
+        "runtime": {
+          "SalesSystem.Mvc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalesSystem.Mvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
