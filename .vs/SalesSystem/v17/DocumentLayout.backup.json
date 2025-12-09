@@ -1,0 +1,443 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87520C53-217D-485C-83AD-79C3279A9649}|SalesSystem.Mvc\\SalesSystem.Mvc.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87520C53-217D-485C-83AD-79C3279A9649}|SalesSystem.Mvc\\SalesSystem.Mvc.csproj|solutionrelative:salessystem.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterlistaprodutos\\obterlistaprodutoshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterlistaprodutos\\obterlistaprodutoshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterlistaprodutos\\obterlistaprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterlistaprodutos\\obterlistaprodutosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterclienteporid\\obterclienteporidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterclienteporid\\obterclienteporidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterclienteporid\\obterclienteporidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterclienteporid\\obterclienteporidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterlistaclientes\\obterlistaclientesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterlistaclientes\\obterlistaclientesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\queries\\obterlistaclientes\\obterlistaclientesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\queries\\obterlistaclientes\\obterlistaclientesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|c:\\users\\andrei\\source\\repos\\myprojects\\salessystemrefactor\\salessystem.webapi\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD17D183-6334-4760-AB79-619AA66A4B43}|SalesSystem.WebApi\\SalesSystem.WebApi.csproj|solutionrelative:salessystem.webapi\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\appsettings.json",
+              "RelativeToolTip": "SalesSystem.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T23:47:05.697Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.Mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "SalesSystem.Mvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.Mvc\\appsettings.json",
+              "RelativeToolTip": "SalesSystem.Mvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T23:45:35.78Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Data\\Context.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Data\\Context.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Data\\Context.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Data\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:52:03.99Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Program.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:05:30.466Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Dtos\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Dtos\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Dtos\\ClienteDto.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Dtos\\ClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:42:19.635Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Models\\ClienteModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:06:43.97Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoDto.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Dtos\\ProdutoDto.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Dtos\\ProdutoDto.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Dtos\\ProdutoDto.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Dtos\\ProdutoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:14:56.423Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Models\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Models\\ProdutoModel.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Models\\ProdutoModel.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Models\\ProdutoModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:16:00.612Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T23:50:24.343Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:07:56.017Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\IClienteService.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:55:30.512Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\ClienteService.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:44:00.938Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Services\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\IProdutoService.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Services\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:35:14.355Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:34:55.236Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Repositories\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\IClienteRepository.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Repositories\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:48:25.849Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:49:37.097Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Repositories\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\IProdutoRepository.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Repositories\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:38:49.701Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:39:06.07Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ObterListaClientesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQuery.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQuery.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQuery.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:57:28.033Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ObterListaClientesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQueryHandler.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQueryHandler.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterListaClientes\\ObterListaClientesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:21:27.431Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ObterClientePorIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdQuery.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdQuery.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdQuery.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:13:34.348Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ObterClientePorIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdHandler.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdHandler.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdHandler.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterClientePorId\\ObterClientePorIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:14:02.848Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObterListaProdutosQuery.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosQuery.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosQuery.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosQuery.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:17:12.358Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObterListaProdutosHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosHandler.cs",
+              "RelativeDocumentMoniker": "SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosHandler.cs",
+              "ToolTip": "C:\\Users\\andrei\\source\\repos\\MyProjects\\SalesSystemRefactor\\SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosHandler.cs",
+              "RelativeToolTip": "SalesSystem.WebApi\\Queries\\ObterListaProdutos\\ObterListaProdutosHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:17:30.157Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

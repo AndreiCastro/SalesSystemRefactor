@@ -17,8 +17,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
+//builder.Services.AddScoped<IVendaService, VendaService>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IVendaRepository, VendaRepository>();
 
 builder.Services.AddMediatR(config =>
 {

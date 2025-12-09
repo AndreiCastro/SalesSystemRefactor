@@ -18,7 +18,6 @@ public sealed class ObterClientePorIdHandler : IRequestHandler<ObterClientePorId
         try
         {
             var result = await _clienteServices.ObterClientePorIdAsync(resquest.Id, cancellationToken);
-
             if(result.Value is null)            
                 return Result.Fail("Nenhum cliente encontrado.");
 

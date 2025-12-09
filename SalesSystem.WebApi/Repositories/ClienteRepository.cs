@@ -97,7 +97,7 @@ public class ClienteRepository : IClienteRepository
 
                 if (cliente is null)
                     return null;
-
+    
                 return new ClienteDto()
                 {
                     Id = cliente.Id,
