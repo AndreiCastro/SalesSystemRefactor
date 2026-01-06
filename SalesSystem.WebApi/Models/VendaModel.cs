@@ -10,13 +10,19 @@ public class VendaModel
     public int Id { get; set; }
 
     [Column("Data")]
-    public DateTime Data { get; set; }
+    public DateTime DataVenda { get; set; }
 
     [Column("Total")]
-    public decimal Total { get; set; }
+    public decimal ValorTotal { get; set; }
 
     [Column("Quantidade_Produto")]
     public int QuantidadeProduto { get; set; }
+
+    [Column("Descricao")]
+    public string Descricao { get; set; }
+
+    [Column("Desconto")]
+    public int? Desconto { get; set; }
 
     [ForeignKey("Cliente")]
     [Column("IdCliente")]

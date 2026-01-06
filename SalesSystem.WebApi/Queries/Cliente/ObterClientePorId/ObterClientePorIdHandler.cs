@@ -2,7 +2,7 @@
 using MediatR;
 using SalesSystem.WebApi.Services;
 
-namespace SalesSystem.WebApi.Queries.ObterClientePorId;
+namespace SalesSystem.WebApi.Queries.Cliente.ObterClientePorId;
 
 public sealed class ObterClientePorIdHandler : IRequestHandler<ObterClientePorIdQuery, Result<ObterClientePorIdResponse>>
 {
@@ -18,7 +18,7 @@ public sealed class ObterClientePorIdHandler : IRequestHandler<ObterClientePorId
         try
         {
             var result = await _clienteServices.ObterClientePorIdAsync(resquest.Id, cancellationToken);
-            if(result.Value is null)            
+            if(result is null)            
                 return Result.Fail("Nenhum cliente encontrado.");
 
             var cliente = new ObterClientePorIdResponse

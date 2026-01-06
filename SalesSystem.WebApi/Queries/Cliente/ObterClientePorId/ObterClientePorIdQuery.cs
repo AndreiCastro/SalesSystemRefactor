@@ -1,7 +1,7 @@
 ﻿using FluentResults;
 using MediatR;
 
-namespace SalesSystem.WebApi.Queries.ObterClientePorId;
+namespace SalesSystem.WebApi.Queries.Cliente.ObterClientePorId;
 
 public sealed record ObterClientePorIdQuery(int Id) : IRequest<Result<ObterClientePorIdResponse>>;
 

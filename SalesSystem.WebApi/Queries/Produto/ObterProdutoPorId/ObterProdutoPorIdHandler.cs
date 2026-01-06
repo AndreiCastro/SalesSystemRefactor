@@ -2,7 +2,7 @@
 using MediatR;
 using SalesSystem.WebApi.Services;
 
-namespace SalesSystem.WebApi.Queries.ObterProdutoPorId;
+namespace SalesSystem.WebApi.Queries.Produto.ObterProdutoPorId;
 
 public sealed class ObterProdutoPorIdHandler : IRequestHandler<ObterProdutoPorIdQuery, Result<ObterProdutoPorIdResponse>>
 {
@@ -18,7 +18,7 @@ public sealed class ObterProdutoPorIdHandler : IRequestHandler<ObterProdutoPorId
         try
         {
             var result = await _produtoService.ObterProdutoPorIdAsync(request.Id, cancellationToken);
-            if (result.Value is null)
+            if (result is null)
                 return Result.Fail("Nenhum produto encontrado");
 
             var produto = new ObterProdutoPorIdResponse

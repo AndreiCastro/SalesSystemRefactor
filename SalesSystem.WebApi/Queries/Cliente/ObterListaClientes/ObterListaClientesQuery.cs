@@ -1,7 +1,7 @@
 ﻿using FluentResults;
 using MediatR;
 
-namespace SalesSystem.WebApi.Queries.ObterListaClientes;
+namespace SalesSystem.WebApi.Queries.Cliente.ObterListaClientes;
 
 public sealed record ObterListaClientesQuery() : IRequest<Result<List<ObterListaClientesResponse>>>;
 

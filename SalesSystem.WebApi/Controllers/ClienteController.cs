@@ -1,8 +1,8 @@
 ﻿using FluentResults;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SalesSystem.WebApi.Queries.ObterClientePorId;
-using SalesSystem.WebApi.Queries.ObterListaClientes;
+using SalesSystem.WebApi.Queries.Cliente.ObterClientePorId;
+using SalesSystem.WebApi.Queries.Cliente.ObterListaClientes;
 
 namespace SalesSystem.WebApi.Controllers;
 

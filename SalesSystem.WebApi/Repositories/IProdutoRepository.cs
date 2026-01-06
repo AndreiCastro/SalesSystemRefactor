@@ -1,10 +1,10 @@
-﻿using SalesSystem.WebApi.Dtos;
+﻿using SalesSystem.Mvc.Models;
 
 namespace SalesSystem.WebApi.Repositories;
 
 public interface IProdutoRepository
 {
-    Task<List<ProdutoDto>> GetAllProdutosAsync(CancellationToken cancellationToken);
+    Task<List<ProdutoModel>> GetAllProdutosAsync(CancellationToken cancellationToken);
 
-    Task<ProdutoDto> GetProdutoForIdAsync(int idProduto, CancellationToken cancellationToken);
+    Task<ProdutoModel> GetProdutoByIdAsync(int idProduto, CancellationToken cancellationToken);
 }

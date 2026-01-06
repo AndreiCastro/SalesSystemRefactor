@@ -1,8 +1,8 @@
 ﻿using FluentResults;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SalesSystem.WebApi.Queries.ObterListaProdutos;
-using SalesSystem.WebApi.Queries.ObterProdutoPorId;
+using SalesSystem.WebApi.Queries.Produto.ObterListaProdutos;
+using SalesSystem.WebApi.Queries.Produto.ObterProdutoPorId;
 
 namespace SalesSystem.WebApi.Controllers;
 
@@ -10,10 +10,10 @@ namespace SalesSystem.WebApi.Controllers;
 [ApiController]
 public class ProdutoController(ISender sender) : ControllerBase
 {
-    #region Delete
-    #endregion Delete
+    #region DELETE
+    #endregion DELETE
 
-    #region Get
+    #region GET
     /// <sumarry>
     /// Metodo para Listar todos os produtos
     /// </sumarry>
@@ -29,16 +29,16 @@ public class ProdutoController(ISender sender) : ControllerBase
     /// </sumarry>
     /// <param name="idProduto"></param>
     [HttpGet("{idProduto:int}")]
-    public async Task<IActionResult> Get(int idProduto, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetById(int idProduto, CancellationToken cancellationToken = default)
     {
         Result<ObterProdutoPorIdResponse> result = await sender.Send(new ObterProdutoPorIdQuery(idProduto), cancellationToken);
         return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Errors[0].Message);
     }
-    #endregion Get
+    #endregion GET
 
-    #region Post
-    #endregion Post
+    #region POST
+    #endregion POST
 
-    #region Put
-    #endregion Put
+    #region PUT
+    #endregion PUT
 }

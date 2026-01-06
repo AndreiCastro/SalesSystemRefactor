@@ -2,7 +2,7 @@
 using MediatR;
 using SalesSystem.WebApi.Services;
 
-namespace SalesSystem.WebApi.Queries.ObterListaProdutos;
+namespace SalesSystem.WebApi.Queries.Produto.ObterListaProdutos;
 
 public sealed class ObterListaProdutosHandler : IRequestHandler<ObterListaProdutosQuery, Result<List<ObterListaProdutosResponse>>>
 {

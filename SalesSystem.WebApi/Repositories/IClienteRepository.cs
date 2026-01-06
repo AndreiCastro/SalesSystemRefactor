@@ -1,10 +1,11 @@
-﻿using SalesSystem.WebApi.Dtos;
+﻿using SalesSystem.Mvc.Models;
+using SalesSystem.WebApi.Dtos;
 
 namespace SalesSystem.WebApi.Repositories;
 
 public interface IClienteRepository
 {
-    Task<List<ClienteDto>> GetAllClientesAsync(CancellationToken cancellationToken);
+    Task<List<ClienteModel>> GetAllClientesAsync(CancellationToken cancellationToken);
 
-    Task<ClienteDto> GetClientForIdAsync(int idCliente, CancellationToken cancellationToken);
+    Task<ClienteModel> GetClientForIdAsync(int idCliente, CancellationToken cancellationToken);
 }

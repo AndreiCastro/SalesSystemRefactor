@@ -1,6 +1,6 @@
-﻿using Microsoft.Data.SqlClient;
-using SalesSystem.WebApi.Dtos;
-using Dapper;
+﻿using Dapper;
+using Microsoft.Data.SqlClient;
+using SalesSystem.Mvc.Models;
 
 namespace SalesSystem.WebApi.Repositories;
 
@@ -13,9 +13,8 @@ public class ClienteRepository : IClienteRepository
         _connection = configuration.GetConnectionString("connect");
     }
 
-    public async Task<List<ClienteDto>> GetAllClientesAsync(CancellationToken cancellationToken)
+    public async Task<List<ClienteModel>> GetAllClientesAsync(CancellationToken cancellationToken)
     {
-        var clientList = new List<ClienteDto>();
         const string sql = @"
             SELECT 
                 Id As Id
@@ -38,26 +37,12 @@ public class ClienteRepository : IClienteRepository
             try
             {
                 await con.OpenAsync();
-                var clientes = await con.QueryAsync<ClienteDto>(sql);
+                var listClientes = (await con.QueryAsync<ClienteModel>(sql)).ToList();
 
-                foreach (var item in clientes)
-                {
-                    clientList.Add(
-                        new ClienteDto()
-                        {
-                            Id = item.Id,
-                            Nome = item.Nome,
-                            Email = item.Email,
-                            CpfCnpj = item.CpfCnpj,
-                            Logradouro = item.Logradouro,
-                            Bairro = item.Bairro,
-                            Uf = item.Uf,
-                            Cep = item.Cep,
-                            Cidade = item.Cidade,
-                            Telefone = item.Telefone                         
-                        });
-                }
-                return clientList;
+                if (listClientes is null)
+                    return null;
+
+                return listClientes;                
             }
             catch (Exception)
             {
@@ -70,7 +55,7 @@ public class ClienteRepository : IClienteRepository
         }
     }
 
-    public async Task<ClienteDto> GetClientForIdAsync(int idCliente, CancellationToken cancellationToken)
+    public async Task<ClienteModel> GetClientForIdAsync(int idCliente, CancellationToken cancellationToken)
     {
         const string sql = @"SELECT
                                 Id As Id
@@ -93,24 +78,12 @@ public class ClienteRepository : IClienteRepository
             try
             {
                 await con.OpenAsync();
-                var cliente = await con.QueryFirstOrDefaultAsync<ClienteDto>(sql, new { id = idCliente});
+                var cliente = await con.QueryFirstOrDefaultAsync<ClienteModel>(sql, new { id = idCliente});
 
                 if (cliente is null)
                     return null;
-    
-                return new ClienteDto()
-                {
-                    Id = cliente.Id,
-                    Nome = cliente.Nome,
-                    Email = cliente.Email,
-                    CpfCnpj = cliente.CpfCnpj,
-                    Logradouro = cliente.Logradouro,
-                    Bairro = cliente.Bairro,
-                    Uf = cliente.Uf,
-                    Cep = cliente.Cep,
-                    Cidade = cliente.Cidade,
-                    Telefone = cliente.Telefone
-                };
+
+                return cliente;
             }
             catch (Exception)
             {

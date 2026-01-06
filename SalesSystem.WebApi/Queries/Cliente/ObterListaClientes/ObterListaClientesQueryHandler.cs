@@ -2,7 +2,7 @@
 using MediatR;
 using SalesSystem.WebApi.Services;
 
-namespace SalesSystem.WebApi.Queries.ObterListaClientes;
+namespace SalesSystem.WebApi.Queries.Cliente.ObterListaClientes;
 
 public sealed class ObterListaClientesQueryHandler : IRequestHandler<ObterListaClientesQuery, Result<List<ObterListaClientesResponse>>>
 {

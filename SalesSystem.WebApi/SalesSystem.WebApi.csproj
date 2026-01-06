@@ -21,8 +21,6 @@
     <Folder Include="Commands\Vendedor\" />
     <Folder Include="Commands\Venda\" />
     <Folder Include="Commands\Produto\" />
-    <Folder Include="Queries\Vendedor\" />
-    <Folder Include="Queries\Venda\" />
   </ItemGroup>
 
 </Project>

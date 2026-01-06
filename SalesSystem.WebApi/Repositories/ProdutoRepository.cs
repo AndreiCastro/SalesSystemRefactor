@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
-using SalesSystem.WebApi.Dtos;
+using SalesSystem.Mvc.Models;
 
 namespace SalesSystem.WebApi.Repositories;
 
@@ -13,9 +13,9 @@ public class ProdutoRepository : IProdutoRepository
         _connection = configuration.GetConnectionString("connect");
     }
 
-    public async Task<List<ProdutoDto>> GetAllProdutosAsync(CancellationToken cancellationToken)
+    public async Task<List<ProdutoModel>> GetAllProdutosAsync(CancellationToken cancellationToken)
     {
-        var listProducts = new List<ProdutoDto>();
+        var listProducts = new List<ProdutoModel>();
         var query = @"SELECT
                             Id
                             , Nome
@@ -33,25 +33,13 @@ public class ProdutoRepository : IProdutoRepository
             try
             {
                 await con.OpenAsync();
-                var produtos = await con.QueryAsync(query);
+                var ListProdutos = (await con.QueryAsync<ProdutoModel>(query)).ToList();
 
-                foreach (var item in produtos)
-                {
-                    listProducts.Add(
-                        new ProdutoDto()
-                        {
-                            Id = item.Id,
-                            Nome = item.Nome,
-                            Descricao = item.Descricao,
-                            Preco = item.Preco,
-                            UnidadeMedida = item.UnidadeMedida,
-                            Peso = item.Peso,
-                            DataValidade = item.DataValidade
-                        }
-                    );
-                }
+                if (ListProdutos is null)
+                    return null;
 
-                return listProducts;
+                return ListProdutos;
+                
             }
             catch (Exception)
             {
@@ -64,7 +52,7 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
-    public async Task<ProdutoDto> GetProdutoForIdAsync(int idProduto, CancellationToken cancellationToken)
+    public async Task<ProdutoModel> GetProdutoByIdAsync(int idProduto, CancellationToken cancellationToken)
     {
         var query = @"SELECT
                         Id
@@ -85,22 +73,12 @@ public class ProdutoRepository : IProdutoRepository
             try
             {
                 await con.OpenAsync();
-                var produto = await con.QueryFirstOrDefaultAsync<ProdutoDto>(query, new { id = idProduto});
+                var produto = await con.QueryFirstOrDefaultAsync<ProdutoModel>(query, new { id = idProduto});
 
                 if (produto is null)
                     return null;
 
-                return new ProdutoDto()
-                {
-                    Id = produto!.Id,
-                    Nome = produto.Nome,
-                    Descricao = produto.Descricao,
-                    Preco = produto.Preco,
-                    UnidadeMedida = produto.UnidadeMedida,
-                    Quantidade = produto.Quantidade,
-                    Peso = produto.Peso,
-                    DataValidade = produto.DataValidade
-                };
+                return produto;
             }
             catch (Exception)
             {

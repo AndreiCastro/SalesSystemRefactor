@@ -1,5 +1,4 @@
-using SalesSystem.WebApi.Queries.ObterListaClientes;
-using SalesSystem.WebApi.Queries.ObterListaProdutos;
+using SalesSystem.WebApi.Queries.Cliente.ObterListaClientes;
 using SalesSystem.WebApi.Repositories;
 using SalesSystem.WebApi.Services;
 
@@ -17,7 +16,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
-//builder.Services.AddScoped<IVendaService, VendaService>();
+builder.Services.AddScoped<IVendaService, VendaService>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped<IVendaRepository, VendaRepository>();
@@ -25,7 +24,6 @@ builder.Services.AddScoped<IVendaRepository, VendaRepository>();
 builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(typeof(ObterListaClientesQuery).Assembly);
-    //config.RegisterServicesFromAssembly(typeof(ObterListaProdutosQuery).Assembly);
 });
 
 var app = builder.Build();
